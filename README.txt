@@ -4,9 +4,11 @@ The website is here: https://github.com/ultralytics/yolov5.git
 
 include files：
 kitti.yaml and bdd100k.yaml are  files in the yolov5 data directory,They are dataset structure.
-common.py have added self-correcting network code SAIoU.
-yolo.py have added the names of network structure.
+common.py has added self-correcting network code SAIoU.
+metrics.py has added SAIoU loss
+yolo.py has added the names of network structure.
 kitti_yolov5s_scc7.yaml is  a file in the yolov5 models directory. It is yolov5s-scc whole network structure.
 The directory of detection is part of experiment result
 The directory of exp128 is yolov5s-scc model train's experiment result. It has trained weight file
 The directory of exp79 is yolov5s model train's experiment result. It has trained weight file
+
